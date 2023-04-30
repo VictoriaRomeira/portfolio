@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--É a linguagem principal que iremos utilizar durante o desenvolvimento do projeto-->
+<head>
+    <meta charset="UTF-8"> <!--É a codificação dos caracteres especiais que serão utilizados durante o desenvolvimento-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--É utilizado especificamente para o navegador Edge, é para que o navegador utilize sempre a última versão-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--É a meta que irá identificar o dispositivo que está sendo utilizado para dimensionar o conteúdo-->
+    <link rel="stylesheet" href="./estilos/style.css"> <!--É o código utilizado para importar a folha de estilo CSS-->
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo"> <!--Separamos o conteúdo da imagem usando o section, para dessa forma não a termos como um elemento filho e conseguirmos melhorar o espaçamento-->
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Victória Romeira, estudante de desenvolvimento Front-end focada em React, HTML e CSS. Busco aprender cada dia mais para aprimorar e desenvolver novas habilidades.</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://github.com/victoriaromeira">
+                    <img src="./assets/github.png" alt="ícone da rede social Github">
+                    Github
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/victoria-romeira-takenaka/">
+                    <img src="./assets/linkedin.png" alt="ícone da rede social Linkedin">
+                    Linkedin
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://www.instagram.com/torymels">
+                    <img src="./assets/instagram.png" alt="ícone da rede social instagram">
+                    Instagram
+                </a>
+            </div>
+        </section>
+        <img class="apresentacao__imagem" src="./assets/imagem.png" alt="Foto da Joana Santos programando">
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Victoria Romeira.</p>
+    </footer>
+</body>
+</html> 
